@@ -1,11 +1,32 @@
- {
+#main-title {
     text-align: center;
+    color: rgb(241, 109, 186);
+    text-shadow: 
 }
 
 li {
     list-style: none;
 }
 
-body {
+html{
     background-image: url("img/bg.jpg");
+}
+
+body {
+    background-color: rgba(219, 215, 215, 0.7);
+    border-radius: 20px;
+}
+
+.names {
+    text-decoration: none;
+    
+
+}
+
+.names:hover {
+    color: wheat;
+}
+
+.names:active {
+    color:rgb(248, 152, 224)95, 140);
 }
